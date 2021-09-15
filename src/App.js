@@ -52,7 +52,7 @@ function App() {
         {errors.name?.message}
         <input placeholder="Email*" {...register("email")} />
         {errors.email?.message}
-        <input placeholder="Telephone*" {...register("telephone")} />
+        <input placeholder="11 953214897*" {...register("telephone")} />
         {errors.telephone?.message}
         <input placeholder="Country" {...register("country")} />
         {errors.country?.message}
