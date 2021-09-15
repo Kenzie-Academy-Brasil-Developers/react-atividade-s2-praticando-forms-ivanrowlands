@@ -71,7 +71,7 @@ function App() {
         {errors.acept?.message}
         <div className="box-1">
           <button className="btn btn-one" type="submit">
-            <span>HOVER ME</span>
+            <span>Enviar</span>
           </button>
         </div>
       </form>
