@@ -5,7 +5,10 @@ import * as yup from "yup";
 
 function App() {
   const formShema = yup.object().shape({
-    name: yup.string().required("nome obrigatorio"),
+    name: yup
+      .string()
+      .required("nome obrigatorio")
+      .max(18, "maximo de 18 characteres permitidas"),
     email: yup.string().required("email obrigatorio").email("email invalido"),
     telephone: yup
       .string()
